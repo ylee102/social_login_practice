@@ -1,0 +1,27 @@
+{
+  "name": "social_login_practice",
+  "version": "1.0.0",
+  "description": "login fundamentals ",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "index.js",
+    "start": "node src/indes.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ylee102/social_login_practice.git"
+  },
+  "author": "MaxLee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ylee102/social_login_practice/issues"
+  },
+  "homepage": "https://github.com/ylee102/social_login_practice#readme",
+  "dependencies": {
+    "express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "10.9.2"
+  }
+}
