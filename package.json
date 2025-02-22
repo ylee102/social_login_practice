@@ -1,12 +1,13 @@
 {
   "name": "social_login_practice",
+  "type": "module",
   "version": "1.0.0",
   "description": "login fundamentals ",
   "main": "src/index.js",
   "scripts": {
     "test": "index.js",
     "start": "node src/indes.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon --exec node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,9 +20,14 @@
   },
   "homepage": "https://github.com/ylee102/social_login_practice#readme",
   "dependencies": {
-    "express": "^5.0.1"
+    "@prisma/client": "^6.4.1",
+    "express": "^5.0.1",
+    "express-session": "^1.18.1",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
   },
   "devDependencies": {
-    "nodemon": "10.9.2"
+    "nodemon": "^3.1.9",
+    "prisma": "^6.4.1"
   }
 }
